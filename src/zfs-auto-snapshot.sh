@@ -226,7 +226,7 @@ GETOPT=$(getopt \
   --longoptions=event:,keep:,label:,prefix:,sep: \
   --longoptions=debug,help,quiet,syslog,verbose \
   --longoptions=pre-snapshot:,post-snapshot:,destroy-only \
-  --longoptions=min-size:
+  --longoptions=min-size: \
   --options=dnshe:l:k:m:p:rs:qgv \
   -- "$@" ) \
   || exit 128
